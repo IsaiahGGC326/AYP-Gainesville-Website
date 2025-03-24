@@ -33,3 +33,45 @@ button:hover {
 .custom-title {
     color:#4c00a3 !important;
 }
+
+.footer {
+    background-color: #4A148C; /* Purple Background */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.youtube {
+    background-color: red;
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    background-color: white;
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.facebook:hover {
+    color: #1877F2;
+}
