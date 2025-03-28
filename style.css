@@ -17,16 +17,16 @@ button:hover {
 }
 
 .navbar-custom {
-    background-color: #4c00a3 !important; /* Custom orange color */
+    background-color: #4c00a3 !important; 
 }
 
 .btn-custom {
-    background-color: #4c00a3 !important; /* Custom teal color */
+    background-color: #4c00a3 !important; 
     color: white !important; /* Ensure text is readable */
 }
 
 .btn-custom:hover {
-    background-color: #9706aa !important; /* Darker teal on hover */
+    background-color: #9706aa !important; 
 }
 
 /* Welcome text color */
@@ -87,4 +87,18 @@ html, body {
 
 .facebook:hover {
     color: #1877F2;
+}
+
+/* Adjusts YouTube Video Previews Dimensions */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
 }
